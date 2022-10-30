@@ -11,6 +11,7 @@ local function HideUICustom()
 
 local MelusHideUI = CreateFrame("Frame", "MuteGroupSounds")
 MelusHideUI:RegisterEvent("PLAYER_ENTERING_WORLD")
+MelusHideUI:RegisterEvent("ZONE_CHANGED_NEW_AREA")
 MelusHideUI:SetScript("OnEvent",
   function(self, event, ...)
     HideUICustom()
