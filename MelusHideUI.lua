@@ -1,4 +1,7 @@
 
+
+local MelusHideUI = CreateFrame("Frame", "MelusHideUI")
+
 local function HideUICustom()
     PlayerFrame.PlayerFrameContainer.PlayerPortrait:Hide()
     PlayerFrame.PlayerFrameContainer.FrameTexture:Hide()
